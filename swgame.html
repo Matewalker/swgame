@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sw.css">
+    <title>Star Wars játék</title>
+</head>
+<body>
+    <audio id="zene" src="StarWars_Theme.mp3" type="audio/mp3"></audio>
+    <p id = "pontok1">Játékos1 pontok: <span id="jatekos1pontok">0</span></p>
+    <p id = "pontok2">Játékos2 pontok: <span id="jatekos2pontok">0</span></p>
+    <button id="start">Játék minden kártyával</button>
+    <button id="nextRound">Következő</button>
+    <button id="back">Visszavonás</button>
+    <button id="jatekujra">Új játék</button>
+    <span id="kinyert"></span>
+    <div id = "jatekter1">
+        <ul id="jatekos1kez">
+            <li><div id="1"></div></li>
+            <li><div id="2"></div></li>
+            <li><div id="3"></div></li>
+            <li><div id="4"></div></li>
+            <li><div id="5"></div></li>
+        </ul>
+    </div>
+    <div id="kitettlapok">
+        <ul id="lerakott1">
+            <li><div id="kitettlap1"></div></li>
+            <li><div id="kitettlap1_2"></div></li>
+            <li><div id="kitettlap1_3"></div></li>
+            <li><div id="kitettlap1_4"></div></li>
+            <li><div id="kitettlap1_5"></div></li>
+        </ul>
+        <ul id="lerakott2">
+            <li><div id="kitettlap2"></div></li>
+            <li><div id="kitettlap2_2"></div></li>
+            <li><div id="kitettlap2_3"></div></li>
+            <li><div id="kitettlap2_4"></div></li>
+            <li><div id="kitettlap2_5"></div></li>
+        </ul>
+    </div>
+    <div id="jatekter2">
+        <ul id="jatekos2kez">
+            <li><div id="a"></div></li>
+            <li><div id="b"></div></li>
+            <li><div id="c"></div></li>
+            <li><div id="d"></div></li>
+            <li><div id="e"></div></li>
+        </ul>
+    </div>
+    <script src="sw_game.js"></script>
+</body>
+</html>

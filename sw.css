@@ -1,0 +1,168 @@
+html{
+  background: fixed;
+  background-image: url("6e3ad0f9192c1578842f5f78facbd229.jpg");
+}
+
+body {
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  height: 90vh;
+}
+
+div{
+  /* position: absolute; */
+  width: 180px;
+  height: 240px;
+  margin: 6px;
+}
+
+button{
+  margin-top: 1%;
+}
+
+#kitettlapok{
+  position: absolute;
+  z-index: 1;
+  margin-left: 5%;
+  float: left;
+}
+
+
+#jatekter1 li{
+  z-index: 2;
+}
+
+#jatekos1kez{
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 40%;
+  /* position: absolute; */
+  float: left;
+}
+
+#lerakott1{
+  list-style-type: none;
+  display: flex;
+}
+
+#kitettlap1{
+  display: flex;
+  margin-bottom: 20%;
+}
+
+
+
+#jatekter2 li{
+  z-index: 2;
+}
+
+#jatekos2kez{
+  display: flex;
+  list-style-type: none;
+  float: left;
+  /* position: absolute; */
+}
+
+#lerakott2{
+  list-style-type: none;
+  display: flex;
+}
+
+#kitettlap2{
+  display: flex;
+}
+
+
+#pontok1{
+  color: white;
+  display: none;
+  float: left;
+}
+
+#jatekos1pontok{
+  color: white;
+  display: none;
+  text-align: start;
+}
+
+#pontok2{
+  color: white;
+  display: none;
+  float: right;
+}
+
+#jatekos2pontok{
+  color: white;
+  display: none;
+  text-align: end;
+  margin-right: 20px;
+}
+
+#kinyert{
+  position: absolute;
+  display: none;
+  font-size: 200%;
+  color: #07cbd8;
+  margin-top: 7%;
+  margin-left: 7%;
+}
+
+#start{
+  font-size: 30px;
+  background-color: #000ba8;
+  color: #07cbd8 ;
+  padding: 8px;
+}
+
+#start:hover{
+  background-color: #00052e;
+  color: #85d2d8;
+}
+
+
+#nextRound{
+  display: none;
+  margin-left: 20px;
+  float: left;
+  font-size: 20px;
+  background-color: #000ba8;
+  color: #07cbd8 ;
+  padding: 6px;
+}
+
+#nextRound:hover{
+  background-color: #00052e;
+  color: #85d2d8;
+}
+
+#jatekujra{
+  margin-left: 20px;
+  font-size: 20px;
+  background-color: #000ba8;
+  color: #07cbd8 ;
+  padding: 6px;
+}
+
+#jatekujra:hover{
+  background-color: #00052e;
+  color: #85d2d8;
+}
+
+#back{
+  display: none;
+  margin-left: 20px;
+  float: left;
+  font-size: 20px;
+  background-color: #000ba8;
+  color: #07cbd8 ;
+  padding: 6px;
+}
+
+#back:hover{
+  background-color: #00052e;
+  color: #85d2d8;
+}
+
+::selection{
+  text-decoration: none;
+}
