@@ -35,7 +35,6 @@ hatlap.src = "hatlap.jpg";
 hatlap.alt = "hatlap";
 hatlap.width = 180;
 hatlap.height = 240;
-var hatlapmasolatok = hatlap.cloneNode(true);
 const vaderkartya = document.createElement('img');
 vaderkartya.src = "karakterkartyak/darthvader.jpg";
 vaderkartya.alt ="vader";
@@ -71,6 +70,11 @@ foinkvizitorkartya.src = "karakterkartyak/foinkvizitor.jpg";
 foinkvizitorkartya.alt = "foinkvizitor";
 foinkvizitorkartya.width = 180;
 foinkvizitorkartya.height = 240;
+const royalguardkartya = document.createElement('img');
+royalguardkartya.src = "karakterkartyak/royalguard.jpg";
+royalguardkartya.alt = "royalguard";
+royalguardkartya.width = 180;
+royalguardkartya.height = 240;
 
 
 const gunraykartya = document.createElement('img');
@@ -118,6 +122,17 @@ droidekakartya.src = "karakterkartyak/droideka.jpg";
 droidekakartya.alt = "droideka";
 droidekakartya.width = 180;
 droidekakartya.height = 240;
+const palpatinelimitkartya = document.createElement('img');
+palpatinelimitkartya.src = "karakterkartyak/palpatinelimit.jpg";
+palpatinelimitkartya.alt = "palpatinelimit";
+palpatinelimitkartya.width = 180;
+palpatinelimitkartya.height = 240;
+const magnaguardkartya = document.createElement('img');
+magnaguardkartya.src = "karakterkartyak/magnaguard.jpg";
+magnaguardkartya.alt = "magnaguard";
+magnaguardkartya.width = 180;
+magnaguardkartya.height = 240;
+
 
 
 const kylorenkartya = document.createElement('img');
@@ -150,6 +165,16 @@ fotiepilotkartya.src = "karakterkartyak/fotiepilot.jpg";
 fotiepilotkartya.alt = "fotiepilot";
 fotiepilotkartya.width = 180;
 fotiepilotkartya.height = 240;
+const kylorenlimitkartya = document.createElement('img');
+kylorenlimitkartya.src = "karakterkartyak/kylorenlimit.jpg"
+kylorenlimitkartya.alt = "kylorenlimit";
+kylorenlimitkartya.width = 180;
+kylorenlimitkartya.height = 240;
+const foguardkartya = document.createElement('img');
+foguardkartya.src = "karakterkartyak/foguard.jpg"
+foguardkartya.alt = "foguard";
+foguardkartya.width = 180;
+foguardkartya.height = 240;
 
 
 const lukekartya = document.createElement('img');
@@ -187,6 +212,21 @@ lazadokartya.src = "karakterkartyak/rebel.jpg";
 lazadokartya.alt = "rebel";
 lazadokartya.width = 180;
 lazadokartya.height = 240;
+const sabinekartya = document.createElement('img');
+sabinekartya.src = "karakterkartyak/sabinewren.jpg";
+sabinekartya.alt = "sabine";
+sabinekartya.width = 180;
+sabinekartya.height = 240;
+const c3pokartya = document.createElement('img');
+c3pokartya.src = "karakterkartyak/c3po.jpg";
+c3pokartya.alt = "c3po";
+c3pokartya.width = 180;
+c3pokartya.height = 240;
+const obiwanlimitkartya = document.createElement('img');
+obiwanlimitkartya.src = "karakterkartyak/obiwanlimit.jpg";
+obiwanlimitkartya.alt = "obiwanlimit";
+obiwanlimitkartya.width = 180;
+obiwanlimitkartya.height = 240;
 
 
 const obiwankartya = document.createElement('img');
@@ -249,6 +289,12 @@ shaaktikartya.src = "karakterkartyak/shaakti.jpg";
 shaaktikartya.alt = "shaakti";
 shaaktikartya.width = 180;
 shaaktikartya.height = 240;
+const codykartya = document.createElement('img');
+codykartya.src = "karakterkartyak/cody.jpg";
+codykartya.alt = "cody";
+codykartya.width = 180;
+codykartya.height = 240;
+
 
 
 const poekartya = document.createElement('img');
@@ -281,6 +327,16 @@ bb8kartya.src = "karakterkartyak/bb8.jpg";
 bb8kartya.alt = "bb8";
 bb8kartya.width = 180;
 bb8kartya.height = 240;
+const leialimitkartya = document.createElement('img');
+leialimitkartya.src = "karakterkartyak/leiaorganalimit.jpg";
+leialimitkartya.alt = "leialimit";
+leialimitkartya.width = 180;
+leialimitkartya.height = 240;
+const mazkanatakartya = document.createElement('img');
+mazkanatakartya.src = "karakterkartyak/mazkanata.jpg";
+mazkanatakartya.alt = "mazkanata";
+mazkanatakartya.width = 180;
+mazkanatakartya.height = 240;
 
 
 const bobafettkartya = document.createElement('img');
@@ -330,6 +386,11 @@ jawakartya.src = "karakterkartyak/jawa.jpg";
 jawakartya.alt = "jawa";
 jawakartya.width = 180;
 jawakartya.height = 240;
+const c3polimitkartya = document.createElement('img');
+c3polimitkartya.src = "karakterkartyak/c3polimit.jpg";
+c3polimitkartya.alt = "c3polimit";
+c3polimitkartya.width = 180;
+c3polimitkartya.height = 240;
 
 
 const gungankartya = document.createElement('img');
@@ -368,6 +429,12 @@ pogglekartya.alt = "poggle";
 pogglekartya.width = 180;
 pogglekartya.height = 240;
 
+const order66kartya = document.createElement('img');
+order66kartya.src = "karakterkartyak/order66.jpg";
+order66kartya.alt = "order66";
+order66kartya.width = 180;
+order66kartya.height = 240;
+
 
 class Kartya {
     constructor(elolap, ero, tipus) {
@@ -387,7 +454,7 @@ class Kartya {
     }
 }
 
-
+const akcio = "akcio";
 const birodalmi = "birodalmi";
 const szeparatista = "szeparatista";
 const elsorend = "elsorend";
@@ -401,6 +468,9 @@ const endor = "endor";
 const rodia = "rodia";
 const geonosis = "geonosis";
 
+//akciokartyak
+const order66 = new Kartya(order66kartya,0,akcio);
+
 //birodalmiak
 const darthVader = new Kartya(vaderkartya,88,birodalmi);
 const darthSidious = new Kartya(sidiouskartya,90,birodalmi);
@@ -409,6 +479,7 @@ const rohamosztagos = new Kartya(rohamosztagoskartya,25,birodalmi);
 const thrawn = new Kartya(thrawnkartya,59,birodalmi);
 const tiepilot = new Kartya(tiepilotkartya,23,birodalmi);
 const nagyinkvizitor = new Kartya(foinkvizitorkartya,74,birodalmi);
+const royalguard = new Kartya(royalguardkartya,30,birodalmi);
 
 
 //szeparatistak
@@ -421,6 +492,8 @@ const szuperrohamdroid = new Kartya(szuperrohamdroidkartya,24,szeparatista);
 const dooku = new Kartya(dookukartya,87,szeparatista);
 const commandodroid = new Kartya(kommandodroidkartya,25,szeparatista);
 const droideka = new Kartya(droidekakartya,32,szeparatista);
+const palpatinelimit = new Kartya(palpatinelimitkartya,95,szeparatista);
+const magnaguard = new Kartya(magnaguardkartya,33,szeparatista);
 
 
 //elso rend
@@ -430,7 +503,8 @@ const hux = new Kartya(huxkartya,50,elsorend);
 const elsorendiRohamosztagos = new Kartya(elsorendirohamosztagoskartya,26,elsorend);
 const phasma = new Kartya(phasmakartya,55,elsorend);
 const fotiepilot = new Kartya(fotiepilotkartya,23,elsorend);
-// const kyloRenLimit = new Kartya(88);
+const kyloRenLimit = new Kartya(kylorenlimitkartya,87,elsorend);
+const foguard = new Kartya (foguardkartya,43,elsorend);
 
 
 //lazadok
@@ -441,6 +515,9 @@ const chewbacca = new Kartya(chewbaccakartya,65,lazadok);
 const r2d2 = new Kartya(r2d2kartya,25,lazadok);
 const landoCalrissian = new Kartya(landokartya,56,lazadok);
 const lazadokatona = new Kartya(lazadokartya,26,lazadok);
+const sabinewren = new Kartya(sabinekartya,55,lazadok);
+const c3po = new Kartya(c3pokartya,15,lazadok);
+const obiwanlimit = new Kartya(obiwanlimitkartya,87,lazadok);
 
 
 //koztarsasag
@@ -456,6 +533,7 @@ const anakinSky = new Kartya(anakinkartya,84,koztarsasag);
 const plokoon = new Kartya(plokoonkartya,83,koztarsasag);
 const luminaraunduli = new Kartya(luminarakartya,81,koztarsasag);
 const shaakti = new Kartya(shaaktikartya,81,koztarsasag);
+const cody = new Kartya(codykartya,37,koztarsasag);
 
 
 //ellenallok
@@ -465,6 +543,8 @@ const rey = new Kartya(reykartya,84,ellenallok);
 const ellenallo = new Kartya(ellenallokartya,25,ellenallok);
 const rosetico = new Kartya(rosekartya,48,ellenallok);
 const bb8 = new Kartya(bb8kartya,23,ellenallok);
+const leiaorganalimit = new Kartya(leialimitkartya,82,ellenallok);
+const mazkanata = new Kartya(mazkanatakartya,46,ellenallok);
 // const ellenallopilota = new Kartya(23);
 
 
@@ -484,6 +564,7 @@ const jangofett = new Kartya(jangokartya,64,fejvadasz)
 const tusken = new Kartya(tuskenkartya,28,tatooine);
 const tuskenwarrior = new Kartya(tuskenwarriorkartya,34,tatooine);
 const jawa = new Kartya(jawakartya,18,tatooine);
+const c3polimit = new Kartya(c3polimitkartya,20,tatooine);
 
 //naboo
 const gungan = new Kartya(gungankartya,24,naboo);
@@ -506,18 +587,21 @@ const poggle = new Kartya(pogglekartya,38,geonosis);
 //utapau
 
 
-const mindenKartya = [darthVader, darthSidious, tarkin, rohamosztagos, thrawn, tiepilot, nagyinkvizitor,
-                    gunray, darthmaul, grievous, rohamdorid, wattambor, szuperrohamdroid, dooku, commandodroid, droideka,
-                    kyloRen, snoke, hux, elsorendiRohamosztagos, phasma, fotiepilot,
-                    lukeSky, hanSolo, leiaOrgana, chewbacca, r2d2, landoCalrissian, lazadokatona,
-                    obiWan, maceWindu, padmeamidala, klon, yoda, ahsokaTano, klonpilota, kitfisto, anakinSky, plokoon, luminaraunduli, shaakti,
-                    poeDameron, finn, rey, ellenallo, rosetico, bb8,
+
+const mindenKartya = [darthVader, darthSidious, tarkin, rohamosztagos, thrawn, tiepilot, nagyinkvizitor, royalguard,
+                    gunray, darthmaul, grievous, rohamdorid, wattambor, szuperrohamdroid, dooku, commandodroid, droideka, palpatinelimit, magnaguard,
+                    kyloRen, snoke, hux, elsorendiRohamosztagos, phasma, fotiepilot, kyloRenLimit, foguard,
+                    lukeSky, hanSolo, leiaOrgana, chewbacca, r2d2, landoCalrissian, lazadokatona, sabinewren, c3po, obiwanlimit,
+                    obiWan, maceWindu, padmeamidala, klon, yoda, ahsokaTano, klonpilota, kitfisto, anakinSky, plokoon, luminaraunduli, shaakti, cody,
+                    poeDameron, finn, rey, ellenallo, rosetico, bb8, leiaorganalimit, mazkanata,
                     bobafett, dindjarin, cadbane, fennecshand, greedo, jangofett,
-                    tusken, tuskenwarrior, jawa,
+                    tusken, tuskenwarrior, jawa, c3polimit,
                     gungan,
                     ewok, wicket,
                     rodiai,
-                    geonosisi, poggle];
+                    geonosisi, poggle,
+                    order66];
+
 let korok = 0;      //ettol fugg hogy meddig tart a jatek, a kovetkezo fuggvenyben hasznalom
 let fordulo = 0;    //ettol fugg hogy meddig tart egy kor, a kovetkezo fuggvenyben hasznalom
 let jatekos1Pont = 0;   //pontszamlalo fuggvenyben hasznalom textcontent-kent es a kovetkezo fuggvenyben ez mutatja meg ki nyer
@@ -791,7 +875,7 @@ function pontSzamlalo() {
 }
 
 function kiirasok(){
-    if(korok < 9){
+    if(korok < 13){
         if(kitettlap1.tipus == kitettlap2.tipus){
             whowin.textContent = "Azonos típús miatt döntetlen!";
         }
@@ -808,19 +892,19 @@ function kiirasok(){
         }
         whowin.style.display = "block";
     }
-    if(korok == 9 && fordulo % 5 == 0){
+    if(korok == 13 && fordulo % 5 == 0){
         if (jatekos1Pont > jatekos2Pont) {
             whowin.textContent = "A csatát az első játékos nyerte!"
         }
         if (jatekos2Pont > jatekos1Pont) {
-            whowin.textContent = "A csatát az második játékos nyerte!"
+            whowin.textContent = "A csatát a második játékos nyerte!"
         }
         if (jatekos2Pont == jatekos1Pont){
             whowin.textContent = "A csatának nincs nyertese!"
         }
         whowin.style.display = "block";
     }
-    if(korok == 9 && fordulo % 5 == 1){
+    if(korok == 13 && fordulo % 5 == 1){
         whowin.textContent = "Kezdejetek el újabb csatát!";
     }
 }
@@ -870,7 +954,7 @@ function kovetkezo() {
         cards2[4].elolap.style.display = 'none';
         korok++;
         kiirasok();
-        if (korok == 9) {
+        if (korok == 13) {
             elemekelvetele1();
             elemekelvetele2();
         }
@@ -902,80 +986,24 @@ function elsojatekosKor() {
     //kirakhat egy kartyat
     jatekos1kartyak1.addEventListener("click", () => {
         if(fordulo % 5 == 1){
-            //indexOf-fal megnézzük, hogy az elemet nem tartalmazza a tömb
-            if(lehetoseg1 == 1 || (lehetoseg1 >= 2 && valaszthato1.indexOf(cards1[0]) === -1 && valaszthato1_2.indexOf(cards1[0]) === -1 && valaszthato1_3.indexOf(cards1[0]) === -1 && valaszthato1_4.indexOf(cards1[0]) === -1)){
-                alapeset1_0();
+            if(cards1[0].tipus == akcio){
+                akciokartya1_0();
             }
-            //ha mar egy kartyat kitettek es azonos a tipusa a 0. kartyaval es ranyomtam
-            if(lehetoseg1 == 2 && valaszthato1.includes(cards1[0])){
-                kitettlap1_2 = cards1[0];
-                kivkartyaindex1_2 = 0;
-                rakott1 = 2;
-                valaszthato1_2 = [];
-                valaszthato1_3 = [];
-                valaszthato1_4 = [];
-                cards1[0].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(cards1[kivkartyaindex1_2].tipus == cards1[i].tipus && cards1[i] != kitettlap1){
-                        lehetoseg1 = 3;
-                        cards1[i].elolap.style.border = '4px solid #a91a1a';
-                        valaszthato1_2.push(cards1[i]);
-                    }
+            if(cards1[0].tipus != akcio){
+                //indexOf-fal megnézzük, hogy az elemet nem tartalmazza a tömb
+                if(lehetoseg1 == 1 || (lehetoseg1 >= 2 && valaszthato1.indexOf(cards1[0]) === -1 && valaszthato1_2.indexOf(cards1[0]) === -1 && valaszthato1_3.indexOf(cards1[0]) === -1 && valaszthato1_4.indexOf(cards1[0]) === -1)){
+                    alapeset1_0();
                 }
-            }
-            if(lehetoseg1 == 3 && valaszthato1_2.includes(cards1[0])){
-                kitettlap1_3 = cards1[0];
-                kivkartyaindex1_3 = 0;
-                rakott1 = 3;
-                valaszthato1_3 = [];
-                valaszthato1_4 = [];
-                cards1[0].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(cards1[kivkartyaindex1_3].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2){
-                        lehetoseg1 = 4;
-                        cards1[i].elolap.style.border = '4px solid #a91a1a';
-                        valaszthato1_3.push(cards1[i]);
-                    }
-                }
-            }
-            if(lehetoseg1 == 4 && valaszthato1_3.includes(cards1[0])){
-                kitettlap1_4 = cards1[0];
-                kivkartyaindex1_4 = 0;
-                rakott1 = 4;
-                valaszthato1_4 = [];
-                cards1[0].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(cards1[kivkartyaindex1_4].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2 && cards1[i] != kitettlap1_3){
-                        lehetoseg1 = 5;
-                        cards1[i].elolap.style.border = '4px solid #a91a1a';
-                        valaszthato1_4.push(cards1[i]);
-                    }
-                }
-            }
-            if(lehetoseg1 == 5 && valaszthato1_4.includes(cards1[0])){
-                kitettlap1_5 = cards1[0];
-                kivkartyaindex1_5 = 0;
-                rakott1 = 5;
-                cards1[0].elolap.style.border = '4px solid #07cbd8';
-            }
-        }
-    });
-
-    jatekos1kartyak2.addEventListener("click", () => {
-        if(fordulo % 5 == 1){
-            if(lehetoseg1 == 1 || (lehetoseg1 >= 2 && valaszthato1.indexOf(cards1[1]) === -1 && valaszthato1_2.indexOf(cards1[1]) === -1 && valaszthato1_3.indexOf(cards1[1]) === -1 && valaszthato1_4.indexOf(cards1[1]) === -1)){
-                alapeset1_1();
-            }
-            if(lehetoseg1 == 2 && valaszthato1.includes(cards1[1])){
-                kitettlap1_2 = cards1[1];
-                kivkartyaindex1_2 = 1;
-                rakott1 = 2;
-                valaszthato1_2 = [];
-                valaszthato1_3 = [];
-                valaszthato1_4 = [];
-                cards1[1].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 0; i < 5; i++){
-                    if(i != kivkartyaindex1_2){
+                //ha mar egy kartyat kitettek es azonos a tipusa a 0. kartyaval es ranyomtam
+                if(lehetoseg1 == 2 && valaszthato1.includes(cards1[0])){
+                    kitettlap1_2 = cards1[0];
+                    kivkartyaindex1_2 = 0;
+                    rakott1 = 2;
+                    valaszthato1_2 = [];
+                    valaszthato1_3 = [];
+                    valaszthato1_4 = [];
+                    cards1[0].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 1; i < 5; i++){
                         if(cards1[kivkartyaindex1_2].tipus == cards1[i].tipus && cards1[i] != kitettlap1){
                             lehetoseg1 = 3;
                             cards1[i].elolap.style.border = '4px solid #a91a1a';
@@ -983,16 +1011,14 @@ function elsojatekosKor() {
                         }
                     }
                 }
-            }
-            if(lehetoseg1 == 3 && valaszthato1_2.includes(cards1[1])){
-                kitettlap1_3 = cards1[1];
-                kivkartyaindex1_3 = 1;
-                rakott1 = 3;
-                valaszthato1_3 = [];
-                valaszthato1_4 = [];
-                cards1[1].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(i != kivkartyaindex1_3){
+                if(lehetoseg1 == 3 && valaszthato1_2.includes(cards1[0])){
+                    kitettlap1_3 = cards1[0];
+                    kivkartyaindex1_3 = 0;
+                    rakott1 = 3;
+                    valaszthato1_3 = [];
+                    valaszthato1_4 = [];
+                    cards1[0].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 1; i < 5; i++){
                         if(cards1[kivkartyaindex1_3].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2){
                             lehetoseg1 = 4;
                             cards1[i].elolap.style.border = '4px solid #a91a1a';
@@ -1000,15 +1026,13 @@ function elsojatekosKor() {
                         }
                     }
                 }
-            }
-            if(lehetoseg1 == 4 && valaszthato1_3.includes(cards1[1])){
-                kitettlap1_4 = cards1[1];
-                kivkartyaindex1_4 = 1;
-                rakott1 = 4;
-                valaszthato1_4 = [];
-                cards1[1].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(i != kivkartyaindex1_4){
+                if(lehetoseg1 == 4 && valaszthato1_3.includes(cards1[0])){
+                    kitettlap1_4 = cards1[0];
+                    kivkartyaindex1_4 = 0;
+                    rakott1 = 4;
+                    valaszthato1_4 = [];
+                    cards1[0].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 1; i < 5; i++){
                         if(cards1[kivkartyaindex1_4].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2 && cards1[i] != kitettlap1_3){
                             lehetoseg1 = 5;
                             cards1[i].elolap.style.border = '4px solid #a91a1a';
@@ -1016,207 +1040,293 @@ function elsojatekosKor() {
                         }
                     }
                 }
+                if(lehetoseg1 == 5 && valaszthato1_4.includes(cards1[0])){
+                    kitettlap1_5 = cards1[0];
+                    kivkartyaindex1_5 = 0;
+                    rakott1 = 5;
+                    cards1[0].elolap.style.border = '4px solid #07cbd8';
+                }
             }
-            if(lehetoseg1 == 5 && valaszthato1_4.includes(cards1[1])){
-                kitettlap1_5 = cards1[1];
-                kivkartyaindex1_5 = 1;
-                rakott1 = 5;
-                cards1[1].elolap.style.border = '4px solid #07cbd8';
+
+        }
+    });
+
+    jatekos1kartyak2.addEventListener("click", () => {
+        if(fordulo % 5 == 1){
+            if(cards1[1].tipus == akcio){
+                akciokartya1_1();
+            }
+            if(cards1[1].tipus != akcio){
+                if(lehetoseg1 == 1 || (lehetoseg1 >= 2 && valaszthato1.indexOf(cards1[1]) === -1 && valaszthato1_2.indexOf(cards1[1]) === -1 && valaszthato1_3.indexOf(cards1[1]) === -1 && valaszthato1_4.indexOf(cards1[1]) === -1)){
+                    alapeset1_1();
+                }
+                if(lehetoseg1 == 2 && valaszthato1.includes(cards1[1])){
+                    kitettlap1_2 = cards1[1];
+                    kivkartyaindex1_2 = 1;
+                    rakott1 = 2;
+                    valaszthato1_2 = [];
+                    valaszthato1_3 = [];
+                    valaszthato1_4 = [];
+                    cards1[1].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex1_2){
+                            if(cards1[kivkartyaindex1_2].tipus == cards1[i].tipus && cards1[i] != kitettlap1){
+                                lehetoseg1 = 3;
+                                cards1[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato1_2.push(cards1[i]);
+                            }
+                        }
+                    }
+                }
+                if(lehetoseg1 == 3 && valaszthato1_2.includes(cards1[1])){
+                    kitettlap1_3 = cards1[1];
+                    kivkartyaindex1_3 = 1;
+                    rakott1 = 3;
+                    valaszthato1_3 = [];
+                    valaszthato1_4 = [];
+                    cards1[1].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex1_3){
+                            if(cards1[kivkartyaindex1_3].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2){
+                                lehetoseg1 = 4;
+                                cards1[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato1_3.push(cards1[i]);
+                            }
+                        }
+                    }
+                }
+                if(lehetoseg1 == 4 && valaszthato1_3.includes(cards1[1])){
+                    kitettlap1_4 = cards1[1];
+                    kivkartyaindex1_4 = 1;
+                    rakott1 = 4;
+                    valaszthato1_4 = [];
+                    cards1[1].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex1_4){
+                            if(cards1[kivkartyaindex1_4].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2 && cards1[i] != kitettlap1_3){
+                                lehetoseg1 = 5;
+                                cards1[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato1_4.push(cards1[i]);
+                            }
+                        }
+                    }
+                }
+                if(lehetoseg1 == 5 && valaszthato1_4.includes(cards1[1])){
+                    kitettlap1_5 = cards1[1];
+                    kivkartyaindex1_5 = 1;
+                    rakott1 = 5;
+                    cards1[1].elolap.style.border = '4px solid #07cbd8';
+                }
             }
         }
     });
     
     jatekos1kartyak3.addEventListener("click", () => {
         if(fordulo % 5 == 1){
-            if(lehetoseg1 == 1 || (lehetoseg1 >= 2 && valaszthato1.indexOf(cards1[2]) === -1 && valaszthato1_2.indexOf(cards1[2]) === -1 && valaszthato1_3.indexOf(cards1[2]) === -1 && valaszthato1_4.indexOf(cards1[2]) === -1)){
-                alapeset1_2();
+            if(cards1[2].tipus == akcio){
+                akciokartya1_2();
             }
-            if(lehetoseg1 == 2 && valaszthato1.includes(cards1[2])){
-                kitettlap1_2 = cards1[2];
-                kivkartyaindex1_2 = 2;
-                rakott1 = 2;
-                valaszthato1_2 = [];
-                valaszthato1_3 = [];
-                valaszthato1_4 = [];
-                cards1[2].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 0; i < 5; i++){
-                    if(i != kivkartyaindex1_2){
-                        if(cards1[kivkartyaindex1_2].tipus == cards1[i].tipus && cards1[i] != kitettlap1){
-                            lehetoseg1 = 3;
-                            cards1[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato1_2.push(cards1[i]);
+            if(cards1[2].tipus != akcio){
+                if(lehetoseg1 == 1 || (lehetoseg1 >= 2 && valaszthato1.indexOf(cards1[2]) === -1 && valaszthato1_2.indexOf(cards1[2]) === -1 && valaszthato1_3.indexOf(cards1[2]) === -1 && valaszthato1_4.indexOf(cards1[2]) === -1)){
+                    alapeset1_2();
+                }
+                if(lehetoseg1 == 2 && valaszthato1.includes(cards1[2])){
+                    kitettlap1_2 = cards1[2];
+                    kivkartyaindex1_2 = 2;
+                    rakott1 = 2;
+                    valaszthato1_2 = [];
+                    valaszthato1_3 = [];
+                    valaszthato1_4 = [];
+                    cards1[2].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex1_2){
+                            if(cards1[kivkartyaindex1_2].tipus == cards1[i].tipus && cards1[i] != kitettlap1){
+                                lehetoseg1 = 3;
+                                cards1[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato1_2.push(cards1[i]);
+                            }
                         }
                     }
                 }
-            }
-            if(lehetoseg1 == 3 && valaszthato1_2.includes(cards1[2])){
-                kitettlap1_3 = cards1[2];
-                kivkartyaindex1_3 = 2;
-                rakott1 = 3;
-                valaszthato1_3 = [];
-                valaszthato1_4 = [];
-                cards1[2].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(i != kivkartyaindex1_3){
-                        if(cards1[kivkartyaindex1_3].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2){
-                            lehetoseg1 = 4;
-                            cards1[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato1_3.push(cards1[i]);
+                if(lehetoseg1 == 3 && valaszthato1_2.includes(cards1[2])){
+                    kitettlap1_3 = cards1[2];
+                    kivkartyaindex1_3 = 2;
+                    rakott1 = 3;
+                    valaszthato1_3 = [];
+                    valaszthato1_4 = [];
+                    cards1[2].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex1_3){
+                            if(cards1[kivkartyaindex1_3].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2){
+                                lehetoseg1 = 4;
+                                cards1[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato1_3.push(cards1[i]);
+                            }
                         }
                     }
                 }
-            }
-            if(lehetoseg1 == 4 && valaszthato1_3.includes(cards1[2])){
-                kitettlap1_4 = cards1[2];
-                kivkartyaindex1_4 = 2;
-                rakott1 = 4;
-                valaszthato1_4 = [];
-                cards1[2].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(i != kivkartyaindex1_4){
-                        if(cards1[kivkartyaindex1_4].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2 && cards1[i] != kitettlap1_3){
-                            lehetoseg1 = 5;
-                            cards1[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato1_4.push(cards1[i]);
+                if(lehetoseg1 == 4 && valaszthato1_3.includes(cards1[2])){
+                    kitettlap1_4 = cards1[2];
+                    kivkartyaindex1_4 = 2;
+                    rakott1 = 4;
+                    valaszthato1_4 = [];
+                    cards1[2].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex1_4){
+                            if(cards1[kivkartyaindex1_4].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2 && cards1[i] != kitettlap1_3){
+                                lehetoseg1 = 5;
+                                cards1[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato1_4.push(cards1[i]);
+                            }
                         }
                     }
                 }
-            }
-            if(lehetoseg1 == 5 && valaszthato1_4.includes(cards1[2])){
-                kitettlap1_5 = cards1[2];
-                kivkartyaindex1_5 = 2;
-                rakott1 = 5;
-                cards1[2].elolap.style.border = '4px solid #07cbd8';
+                if(lehetoseg1 == 5 && valaszthato1_4.includes(cards1[2])){
+                    kitettlap1_5 = cards1[2];
+                    kivkartyaindex1_5 = 2;
+                    rakott1 = 5;
+                    cards1[2].elolap.style.border = '4px solid #07cbd8';
+                }
             }
         }
     });
     
     jatekos1kartyak4.addEventListener("click", () => {
         if(fordulo % 5 == 1){
-            if(lehetoseg1 == 1 || (lehetoseg1 >= 2 && valaszthato1.indexOf(cards1[3]) === -1 && valaszthato1_2.indexOf(cards1[3]) === -1 && valaszthato1_3.indexOf(cards1[3]) === -1 && valaszthato1_4.indexOf(cards1[3]) === -1)){
-                alapeset1_3();
+            if(cards1[3].tipus == akcio){
+                akciokartya1_3();
             }
-            if(lehetoseg1 == 2 && valaszthato1.includes(cards1[3])){
-                kitettlap1_2 = cards1[3];
-                kivkartyaindex1_2 = 3;
-                rakott1 = 2;
-                valaszthato1_2 = [];
-                valaszthato1_3 = [];
-                valaszthato1_4 = [];
-                cards1[3].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 0; i < 5; i++){
-                    if(i != kivkartyaindex1_2){
-                        if(cards1[kivkartyaindex1_2].tipus == cards1[i].tipus && cards1[i] != kitettlap1){
-                            lehetoseg1 = 3;
-                            cards1[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato1_2.push(cards1[i]);
+            if(cards1[3].tipus != akcio){
+                if(lehetoseg1 == 1 || (lehetoseg1 >= 2 && valaszthato1.indexOf(cards1[3]) === -1 && valaszthato1_2.indexOf(cards1[3]) === -1 && valaszthato1_3.indexOf(cards1[3]) === -1 && valaszthato1_4.indexOf(cards1[3]) === -1)){
+                    alapeset1_3();
+                }
+                if(lehetoseg1 == 2 && valaszthato1.includes(cards1[3])){
+                    kitettlap1_2 = cards1[3];
+                    kivkartyaindex1_2 = 3;
+                    rakott1 = 2;
+                    valaszthato1_2 = [];
+                    valaszthato1_3 = [];
+                    valaszthato1_4 = [];
+                    cards1[3].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex1_2){
+                            if(cards1[kivkartyaindex1_2].tipus == cards1[i].tipus && cards1[i] != kitettlap1){
+                                lehetoseg1 = 3;
+                                cards1[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato1_2.push(cards1[i]);
+                            }
                         }
                     }
                 }
-            }
-            if(lehetoseg1 == 3 && valaszthato1_2.includes(cards1[3])){
-                kitettlap1_3 = cards1[3];
-                kivkartyaindex1_3 = 3;
-                rakott1 = 3;
-                valaszthato1_3 = [];
-                valaszthato1_4 = [];
-                cards1[3].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(i != kivkartyaindex1_3){
-                        if(cards1[kivkartyaindex1_3].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2){
-                            lehetoseg1 = 4;
-                            cards1[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato1_3.push(cards1[i]);
+                if(lehetoseg1 == 3 && valaszthato1_2.includes(cards1[3])){
+                    kitettlap1_3 = cards1[3];
+                    kivkartyaindex1_3 = 3;
+                    rakott1 = 3;
+                    valaszthato1_3 = [];
+                    valaszthato1_4 = [];
+                    cards1[3].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex1_3){
+                            if(cards1[kivkartyaindex1_3].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2){
+                                lehetoseg1 = 4;
+                                cards1[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato1_3.push(cards1[i]);
+                            }
                         }
                     }
                 }
-            }
-            if(lehetoseg1 == 4 && valaszthato1_3.includes(cards1[3])){
-                kitettlap1_4 = cards1[3];
-                kivkartyaindex1_4 = 3;
-                rakott1 = 4;
-                valaszthato1_4 = [];
-                cards1[3].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(i != kivkartyaindex1_4){
-                        if(cards1[kivkartyaindex1_4].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2 && cards1[i] != kitettlap1_3){
-                            lehetoseg1 = 5;
-                            cards1[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato1_4.push(cards1[i]);
+                if(lehetoseg1 == 4 && valaszthato1_3.includes(cards1[3])){
+                    kitettlap1_4 = cards1[3];
+                    kivkartyaindex1_4 = 3;
+                    rakott1 = 4;
+                    valaszthato1_4 = [];
+                    cards1[3].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex1_4){
+                            if(cards1[kivkartyaindex1_4].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2 && cards1[i] != kitettlap1_3){
+                                lehetoseg1 = 5;
+                                cards1[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato1_4.push(cards1[i]);
+                            }
                         }
                     }
                 }
-            }
-            if(lehetoseg1 == 5 && valaszthato1_4.includes(cards1[3])){
-                kitettlap1_5 = cards1[3];
-                kivkartyaindex1_5 = 3;
-                rakott1 = 5;
-                cards1[3].elolap.style.border = '4px solid #07cbd8';
+                if(lehetoseg1 == 5 && valaszthato1_4.includes(cards1[3])){
+                    kitettlap1_5 = cards1[3];
+                    kivkartyaindex1_5 = 3;
+                    rakott1 = 5;
+                    cards1[3].elolap.style.border = '4px solid #07cbd8';
+                }
             }
         }
     });
     
     jatekos1kartyak5.addEventListener("click", () => {
         if(fordulo % 5 == 1){
-            if(lehetoseg1 == 1 || (lehetoseg1 >= 2 && valaszthato1.indexOf(cards1[4]) === -1 && valaszthato1_2.indexOf(cards1[4]) === -1 && valaszthato1_3.indexOf(cards1[4]) === -1 && valaszthato1_4.indexOf(cards1[4]) === -1)){
-                alapeset1_4();
+            if(cards1[4].tipus == akcio){
+                akciokartya1_4();
             }
-            if(lehetoseg1 == 2 && valaszthato1.includes(cards1[4])){
-                kitettlap1_2 = cards1[4];
-                kivkartyaindex1_2 = 4;
-                rakott1 = 2;
-                valaszthato1_2 = [];
-                valaszthato1_3 = [];
-                valaszthato1_4 = [];
-                cards1[4].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 0; i < 5; i++){
-                    if(i != kivkartyaindex1_2){
-                        if(cards1[kivkartyaindex1_2].tipus == cards1[i].tipus && cards1[i] != kitettlap1){
-                            lehetoseg1 = 3;
-                            cards1[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato1_2.push(cards1[i]);
+            if(cards1[4].tipus != akcio){
+                if(lehetoseg1 == 1 || (lehetoseg1 >= 2 && valaszthato1.indexOf(cards1[4]) === -1 && valaszthato1_2.indexOf(cards1[4]) === -1 && valaszthato1_3.indexOf(cards1[4]) === -1 && valaszthato1_4.indexOf(cards1[4]) === -1)){
+                    alapeset1_4();
+                }
+                if(lehetoseg1 == 2 && valaszthato1.includes(cards1[4])){
+                    kitettlap1_2 = cards1[4];
+                    kivkartyaindex1_2 = 4;
+                    rakott1 = 2;
+                    valaszthato1_2 = [];
+                    valaszthato1_3 = [];
+                    valaszthato1_4 = [];
+                    cards1[4].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex1_2){
+                            if(cards1[kivkartyaindex1_2].tipus == cards1[i].tipus && cards1[i] != kitettlap1){
+                                lehetoseg1 = 3;
+                                cards1[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato1_2.push(cards1[i]);
+                            }
                         }
                     }
                 }
-            }
-            if(lehetoseg1 == 3 && valaszthato1_2.includes(cards1[4])){
-                kitettlap1_3 = cards1[4];
-                kivkartyaindex1_3 = 4;
-                rakott1 = 3;
-                valaszthato1_3 = [];
-                valaszthato1_4 = [];
-                cards1[4].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(i != kivkartyaindex1_3){
-                        if(cards1[kivkartyaindex1_3].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2){
-                            lehetoseg1 = 4;
-                            cards1[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato1_3.push(cards1[i]);
+                if(lehetoseg1 == 3 && valaszthato1_2.includes(cards1[4])){
+                    kitettlap1_3 = cards1[4];
+                    kivkartyaindex1_3 = 4;
+                    rakott1 = 3;
+                    valaszthato1_3 = [];
+                    valaszthato1_4 = [];
+                    cards1[4].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex1_3){
+                            if(cards1[kivkartyaindex1_3].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2){
+                                lehetoseg1 = 4;
+                                cards1[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato1_3.push(cards1[i]);
+                            }
                         }
                     }
                 }
-            }
-            if(lehetoseg1 == 4 && valaszthato1_3.includes(cards1[4])){
-                kitettlap1_4 = cards1[4];
-                kivkartyaindex1_4 = 4;
-                rakott1 = 4;
-                valaszthato1_4 = [];
-                cards1[4].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(i != kivkartyaindex1_4){
-                        if(cards1[kivkartyaindex1_4].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2 && cards1[i] != kitettlap1_3){
-                            lehetoseg1 = 5;
-                            cards1[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato1_4.push(cards1[i]);
+                if(lehetoseg1 == 4 && valaszthato1_3.includes(cards1[4])){
+                    kitettlap1_4 = cards1[4];
+                    kivkartyaindex1_4 = 4;
+                    rakott1 = 4;
+                    valaszthato1_4 = [];
+                    cards1[4].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex1_4){
+                            if(cards1[kivkartyaindex1_4].tipus == cards1[i].tipus && cards1[i] != kitettlap1 && cards1[i] != kitettlap1_2 && cards1[i] != kitettlap1_3){
+                                lehetoseg1 = 5;
+                                cards1[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato1_4.push(cards1[i]);
+                            }
                         }
                     }
                 }
-            }
-            if(lehetoseg1 == 5 && valaszthato1_4.includes(cards1[4])){
-                kitettlap1_5 = cards1[4];
-                kivkartyaindex1_5 = 4;
-                rakott1 = 5;
-                cards1[4].elolap.style.border = '4px solid #07cbd8';
+                if(lehetoseg1 == 5 && valaszthato1_4.includes(cards1[4])){
+                    kitettlap1_5 = cards1[4];
+                    kivkartyaindex1_5 = 4;
+                    rakott1 = 5;
+                    cards1[4].elolap.style.border = '4px solid #07cbd8';
+                }
             }
         }
     });
@@ -1297,66 +1407,74 @@ function masodikjatekosKor() {
     //kirakhat egy kartyat
     jatekos2kartyak1.addEventListener("click", () => {
         if(fordulo % 5 == 3){
-            if(lehetoseg2 == 1 || (lehetoseg2 >= 2 && valaszthato2.indexOf(cards2[0]) === -1 && valaszthato2_2.indexOf(cards2[0]) === -1 && valaszthato2_3.indexOf(cards2[0]) === -1 && valaszthato2_4.indexOf(cards2[0]) === -1)){
-                alapeset2_0();
+            if(cards2[0].tipus == akcio){
+                akciokartya2_0();
             }
-            if(lehetoseg2 == 2 && valaszthato2.includes(cards2[0])){
-                kitettlap2_2 = cards2[0];
-                kivkartyaindex2_2 = 0;
-                rakott2 = 2;
-                valaszthato2_2 = [];
-                valaszthato2_3 = [];
-                valaszthato2_4 = [];
-                cards2[0].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(cards2[kivkartyaindex2_2].tipus == cards2[i].tipus && cards2[i] != kitettlap2){
-                        lehetoseg2 = 3;
-                        cards2[i].elolap.style.border = '4px solid #a91a1a';
-                        valaszthato2_2.push(cards2[i]);
+            if(cards2[0].tipus != akcio){
+                if(lehetoseg2 == 1 || (lehetoseg2 >= 2 && valaszthato2.indexOf(cards2[0]) === -1 && valaszthato2_2.indexOf(cards2[0]) === -1 && valaszthato2_3.indexOf(cards2[0]) === -1 && valaszthato2_4.indexOf(cards2[0]) === -1)){
+                    alapeset2_0();
+                }
+                if(lehetoseg2 == 2 && valaszthato2.includes(cards2[0])){
+                    kitettlap2_2 = cards2[0];
+                    kivkartyaindex2_2 = 0;
+                    rakott2 = 2;
+                    valaszthato2_2 = [];
+                    valaszthato2_3 = [];
+                    valaszthato2_4 = [];
+                    cards2[0].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 1; i < 5; i++){
+                        if(cards2[kivkartyaindex2_2].tipus == cards2[i].tipus && cards2[i] != kitettlap2){
+                            lehetoseg2 = 3;
+                            cards2[i].elolap.style.border = '4px solid #a91a1a';
+                            valaszthato2_2.push(cards2[i]);
+                        }
                     }
                 }
-            }
-            if(lehetoseg2 == 3 && valaszthato2_2.includes(cards2[0])){
-                kitettlap2_3 = cards2[0];
-                kivkartyaindex2_3 = 0;
-                rakott2 = 3;
-                valaszthato2_3 = [];
-                valaszthato2_4 = [];
-                cards2[0].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(cards2[kivkartyaindex2_3].tipus == cards2[i].tipus && cards2[i] != kitettlap2 && cards2[i] != kitettlap2_2){
-                        lehetoseg2 = 4;
-                        cards2[i].elolap.style.border = '4px solid #a91a1a';
-                        valaszthato2_3.push(cards2[i]);
+                if(lehetoseg2 == 3 && valaszthato2_2.includes(cards2[0])){
+                    kitettlap2_3 = cards2[0];
+                    kivkartyaindex2_3 = 0;
+                    rakott2 = 3;
+                    valaszthato2_3 = [];
+                    valaszthato2_4 = [];
+                    cards2[0].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 1; i < 5; i++){
+                        if(cards2[kivkartyaindex2_3].tipus == cards2[i].tipus && cards2[i] != kitettlap2 && cards2[i] != kitettlap2_2){
+                            lehetoseg2 = 4;
+                            cards2[i].elolap.style.border = '4px solid #a91a1a';
+                            valaszthato2_3.push(cards2[i]);
+                        }
                     }
                 }
-            }
-            if(lehetoseg2 == 4 && valaszthato2_3.includes(cards2[0])){
-                kitettlap2_4 = cards2[0];
-                kivkartyaindex2_4 = 0;
-                rakott2 = 4;
-                valaszthato2_4 = [];
-                cards2[0].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 1; i < 5; i++){
-                    if(cards2[kivkartyaindex2_4].tipus == cards2[i].tipus && cards2[i] != kitettlap1 && cards2[i] != kitettlap2_2 && cards2[i] != kitettlap2_3){
-                        lehetoseg2 = 5;
-                        cards2[i].elolap.style.border = '4px solid #a91a1a';
-                        valaszthato2_4.push(cards2[i]);
+                if(lehetoseg2 == 4 && valaszthato2_3.includes(cards2[0])){
+                    kitettlap2_4 = cards2[0];
+                    kivkartyaindex2_4 = 0;
+                    rakott2 = 4;
+                    valaszthato2_4 = [];
+                    cards2[0].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 1; i < 5; i++){
+                        if(cards2[kivkartyaindex2_4].tipus == cards2[i].tipus && cards2[i] != kitettlap2 && cards2[i] != kitettlap2_2 && cards2[i] != kitettlap2_3){
+                            lehetoseg2 = 5;
+                            cards2[i].elolap.style.border = '4px solid #a91a1a';
+                            valaszthato2_4.push(cards2[i]);
+                        }
                     }
                 }
-            }
-            if(lehetoseg2 == 5 && valaszthato2_4.includes(cards2[0])){
-                kitettlap2_5 = cards2[0];
-                kivkartyaindex2_5 = 0;
-                rakott2 = 5;
-                cards2[0].elolap.style.border = '4px solid #07cbd8';
+                if(lehetoseg2 == 5 && valaszthato2_4.includes(cards2[0])){
+                    kitettlap2_5 = cards2[0];
+                    kivkartyaindex2_5 = 0;
+                    rakott2 = 5;
+                    cards2[0].elolap.style.border = '4px solid #07cbd8';
+                }
             }
         }
     });
 
     jatekos2kartyak2.addEventListener("click", () => {
         if(fordulo % 5 == 3){
-            if(fordulo % 5 == 3){
+            if(cards2[1].tipus == akcio){
+                akciokartya2_1();
+            }
+            if(cards2[1].tipus != akcio){
                 if(lehetoseg2 == 1 || (lehetoseg2 >= 2 && valaszthato2.indexOf(cards2[1]) === -1 && valaszthato2_2.indexOf(cards2[1]) === -1 && valaszthato2_3.indexOf(cards2[1]) === -1 && valaszthato2_4.indexOf(cards2[1]) === -1)){
                     alapeset2_1();
                 }
@@ -1405,7 +1523,7 @@ function masodikjatekosKor() {
                     cards2[1].elolap.style.border = '4px solid #07cbd8';
                     for(let i = 0; i < 5; i++){
                         if(i != kivkartyaindex2_4){
-                            if(cards2[kivkartyaindex2_4].tipus == cards2[i].tipus && cards2[i] != kitettlap1 && cards2[i] != kitettlap2_2 && cards2[i] != kitettlap2_3){
+                            if(cards2[kivkartyaindex2_4].tipus == cards2[i].tipus && cards2[i] != kitettlap2 && cards2[i] != kitettlap2_2 && cards2[i] != kitettlap2_3){
                                 lehetoseg2 = 5;
                                 cards2[i].elolap.style.border = '4px solid #a91a1a';
                                 valaszthato2_4.push(cards2[i]);
@@ -1426,204 +1544,219 @@ function masodikjatekosKor() {
 
     jatekos2kartyak3.addEventListener("click", () => {
         if(fordulo % 5 == 3){
-            if(lehetoseg2 == 1 || (lehetoseg2 >= 2 && valaszthato2.indexOf(cards2[2]) === -1 && valaszthato2_2.indexOf(cards2[2]) === -1 && valaszthato2_3.indexOf(cards2[2]) === -1 && valaszthato2_4.indexOf(cards2[2]) === -1)){
-                alapeset2_2();
+            if(cards2[2].tipus == akcio){
+                akciokartya2_2();
             }
-            if(lehetoseg2 == 2 && valaszthato2.includes(cards2[2])){
-                kitettlap2_2 = cards2[2];
-                kivkartyaindex2_2 = 2;
-                rakott2 = 2;
-                valaszthato2_2 = [];
-                valaszthato2_3 = [];
-                valaszthato2_4 = [];
-                cards2[2].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 0; i < 5; i++){
-                    if( i != kivkartyaindex2_2){
-                        if(cards2[kivkartyaindex2_2].tipus == cards2[i].tipus && cards2[i] != kitettlap2){
-                            lehetoseg2 = 3;
-                            cards2[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato2_2.push(cards2[i]);
-                        }
-                    }
-
+            if(cards2[2].tipus != akcio){
+                if(lehetoseg2 == 1 || (lehetoseg2 >= 2 && valaszthato2.indexOf(cards2[2]) === -1 && valaszthato2_2.indexOf(cards2[2]) === -1 && valaszthato2_3.indexOf(cards2[2]) === -1 && valaszthato2_4.indexOf(cards2[2]) === -1)){
+                    alapeset2_2();
                 }
-            }
-            if(lehetoseg2 == 3 && valaszthato2_2.includes(cards2[2])){
-                kitettlap2_3 = cards2[2];
-                kivkartyaindex2_3 = 2;
-                rakott2 = 3;
-                valaszthato2_3 = [];
-                valaszthato2_4 = [];
-                cards2[2].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 0; i < 5; i++){
-                    if(i != kivkartyaindex2_3){
-                        if(cards2[kivkartyaindex2_3].tipus == cards2[i].tipus && cards2[i] != kitettlap2 && cards2[i] != kitettlap2_2){
-                            lehetoseg2 = 4;
-                            cards2[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato2_3.push(cards2[i]);
+                if(lehetoseg2 == 2 && valaszthato2.includes(cards2[2])){
+                    kitettlap2_2 = cards2[2];
+                    kivkartyaindex2_2 = 2;
+                    rakott2 = 2;
+                    valaszthato2_2 = [];
+                    valaszthato2_3 = [];
+                    valaszthato2_4 = [];
+                    cards2[2].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if( i != kivkartyaindex2_2){
+                            if(cards2[kivkartyaindex2_2].tipus == cards2[i].tipus && cards2[i] != kitettlap2){
+                                lehetoseg2 = 3;
+                                cards2[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato2_2.push(cards2[i]);
+                            }
                         }
-                    }
 
+                    }
                 }
-            }
-            if(lehetoseg2 == 4 && valaszthato2_3.includes(cards2[2])){
-                kitettlap2_4 = cards2[2];
-                kivkartyaindex2_4 = 2;
-                rakott2 = 4;
-                valaszthato2_4 = [];
-                cards2[2].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 0; i < 5; i++){
-                    if(i != kivkartyaindex2_4){
-                        if(cards2[kivkartyaindex2_4].tipus == cards2[i].tipus && cards2[i] != kitettlap1 && cards2[i] != kitettlap2_2 && cards2[i] != kitettlap2_3){
-                            lehetoseg2 = 5;
-                            cards2[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato2_4.push(cards2[i]);
+                if(lehetoseg2 == 3 && valaszthato2_2.includes(cards2[2])){
+                    kitettlap2_3 = cards2[2];
+                    kivkartyaindex2_3 = 2;
+                    rakott2 = 3;
+                    valaszthato2_3 = [];
+                    valaszthato2_4 = [];
+                    cards2[2].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex2_3){
+                            if(cards2[kivkartyaindex2_3].tipus == cards2[i].tipus && cards2[i] != kitettlap2 && cards2[i] != kitettlap2_2){
+                                lehetoseg2 = 4;
+                                cards2[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato2_3.push(cards2[i]);
+                            }
                         }
-                    }
 
+                    }
                 }
-            }
-            if(lehetoseg2 == 5 && valaszthato2_4.includes(cards2[2])){
-                kitettlap2_5 = cards2[2];
-                kivkartyaindex2_5 = 2;
-                rakott2 = 5;
-                cards2[2].elolap.style.border = '4px solid #07cbd8';
+                if(lehetoseg2 == 4 && valaszthato2_3.includes(cards2[2])){
+                    kitettlap2_4 = cards2[2];
+                    kivkartyaindex2_4 = 2;
+                    rakott2 = 4;
+                    valaszthato2_4 = [];
+                    cards2[2].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex2_4){
+                            if(cards2[kivkartyaindex2_4].tipus == cards2[i].tipus && cards2[i] != kitettlap2 && cards2[i] != kitettlap2_2 && cards2[i] != kitettlap2_3){
+                                lehetoseg2 = 5;
+                                cards2[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato2_4.push(cards2[i]);
+                            }
+                        }
+
+                    }
+                }
+                if(lehetoseg2 == 5 && valaszthato2_4.includes(cards2[2])){
+                    kitettlap2_5 = cards2[2];
+                    kivkartyaindex2_5 = 2;
+                    rakott2 = 5;
+                    cards2[2].elolap.style.border = '4px solid #07cbd8';
+                }
             }
         }
     });
 
     jatekos2kartyak4.addEventListener("click", () => {
         if(fordulo % 5 == 3){
-            if(lehetoseg2 == 1 || (lehetoseg2 >= 2 && valaszthato2.indexOf(cards2[3]) === -1 && valaszthato2_2.indexOf(cards2[3]) === -1 && valaszthato2_3.indexOf(cards2[3]) === -1 && valaszthato2_4.indexOf(cards2[3]) === -1)){
-                alapeset2_3();
+            if(cards2[3].tipus == akcio){
+                akciokartya2_3();
             }
-            if(lehetoseg2 == 2 && valaszthato2.includes(cards2[3])){
-                kitettlap2_2 = cards2[3];
-                kivkartyaindex2_2 = 3;
-                rakott2 = 2;
-                valaszthato2_2 = [];
-                valaszthato2_3 = [];
-                valaszthato2_4 = [];
-                cards2[3].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 0; i < 5; i++){
-                    if( i != kivkartyaindex2_2){
-                        if(cards2[kivkartyaindex2_2].tipus == cards2[i].tipus && cards2[i] != kitettlap2){
-                            lehetoseg2 = 3;
-                            cards2[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato2_2.push(cards2[i]);
-                        }
-                    }
-
+            if(cards2[3].tipus != akcio){
+                if(lehetoseg2 == 1 || (lehetoseg2 >= 2 && valaszthato2.indexOf(cards2[3]) === -1 && valaszthato2_2.indexOf(cards2[3]) === -1 && valaszthato2_3.indexOf(cards2[3]) === -1 && valaszthato2_4.indexOf(cards2[3]) === -1)){
+                    alapeset2_3();
                 }
-            }
-            if(lehetoseg2 == 3 && valaszthato2_2.includes(cards2[3])){
-                kitettlap2_3 = cards2[3];
-                kivkartyaindex2_3 = 3;
-                rakott2 = 3;
-                valaszthato2_3 = [];
-                valaszthato2_4 = [];
-                cards2[3].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 0; i < 5; i++){
-                    if(i != kivkartyaindex2_3){
-                        if(cards2[kivkartyaindex2_3].tipus == cards2[i].tipus && cards2[i] != kitettlap2 && cards2[i] != kitettlap2_2){
-                            lehetoseg2 = 4;
-                            cards2[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato2_3.push(cards2[i]);
+                if(lehetoseg2 == 2 && valaszthato2.includes(cards2[3])){
+                    kitettlap2_2 = cards2[3];
+                    kivkartyaindex2_2 = 3;
+                    rakott2 = 2;
+                    valaszthato2_2 = [];
+                    valaszthato2_3 = [];
+                    valaszthato2_4 = [];
+                    cards2[3].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if( i != kivkartyaindex2_2){
+                            if(cards2[kivkartyaindex2_2].tipus == cards2[i].tipus && cards2[i] != kitettlap2){
+                                lehetoseg2 = 3;
+                                cards2[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato2_2.push(cards2[i]);
+                            }
                         }
-                    }
 
+                    }
                 }
-            }
-            if(lehetoseg2 == 4 && valaszthato2_3.includes(cards2[3])){
-                kitettlap2_4 = cards2[3];
-                kivkartyaindex2_4 = 3;
-                rakott2 = 4;
-                valaszthato2_4 = [];
-                cards2[3].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 0; i < 5; i++){
-                    if(i != kivkartyaindex2_4){
-                        if(cards2[kivkartyaindex2_4].tipus == cards2[i].tipus && cards2[i] != kitettlap1 && cards2[i] != kitettlap2_2 && cards2[i] != kitettlap2_3){
-                            lehetoseg2 = 5;
-                            cards2[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato2_4.push(cards2[i]);
+                if(lehetoseg2 == 3 && valaszthato2_2.includes(cards2[3])){
+                    kitettlap2_3 = cards2[3];
+                    kivkartyaindex2_3 = 3;
+                    rakott2 = 3;
+                    valaszthato2_3 = [];
+                    valaszthato2_4 = [];
+                    cards2[3].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex2_3){
+                            if(cards2[kivkartyaindex2_3].tipus == cards2[i].tipus && cards2[i] != kitettlap2 && cards2[i] != kitettlap2_2){
+                                lehetoseg2 = 4;
+                                cards2[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato2_3.push(cards2[i]);
+                            }
                         }
-                    }
 
+                    }
                 }
-            }
-            if(lehetoseg2 == 5 && valaszthato2_4.includes(cards2[3])){
-                kitettlap2_5 = cards2[3];
-                kivkartyaindex2_5 = 3;
-                rakott2 = 5;
-                cards2[3].elolap.style.border = '4px solid #07cbd8';
+                if(lehetoseg2 == 4 && valaszthato2_3.includes(cards2[3])){
+                    kitettlap2_4 = cards2[3];
+                    kivkartyaindex2_4 = 3;
+                    rakott2 = 4;
+                    valaszthato2_4 = [];
+                    cards2[3].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex2_4){
+                            if(cards2[kivkartyaindex2_4].tipus == cards2[i].tipus && cards2[i] != kitettlap2 && cards2[i] != kitettlap2_2 && cards2[i] != kitettlap2_3){
+                                lehetoseg2 = 5;
+                                cards2[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato2_4.push(cards2[i]);
+                            }
+                        }
+
+                    }
+                }
+                if(lehetoseg2 == 5 && valaszthato2_4.includes(cards2[3])){
+                    kitettlap2_5 = cards2[3];
+                    kivkartyaindex2_5 = 3;
+                    rakott2 = 5;
+                    cards2[3].elolap.style.border = '4px solid #07cbd8';
+                }
             }
         }
     });
 
     jatekos2kartyak5.addEventListener("click", () => {
         if(fordulo % 5 == 3){
-            if(lehetoseg2 == 1 || (lehetoseg2 >= 2 && valaszthato2.indexOf(cards2[4]) === -1 && valaszthato2_2.indexOf(cards2[4]) === -1 && valaszthato2_3.indexOf(cards2[4]) === -1 && valaszthato2_4.indexOf(cards2[4]) === -1)){
-                alapeset2_4();
+            if(cards2[4].tipus == akcio){
+                akciokartya2_4();
             }
-            if(lehetoseg2 == 2 && valaszthato2.includes(cards2[4])){
-                kitettlap2_2 = cards2[4];
-                kivkartyaindex2_2 = 4;
-                rakott2 = 2;
-                valaszthato2_2 = [];
-                valaszthato2_3 = [];
-                valaszthato2_4 = [];
-                cards2[4].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 0; i < 5; i++){
-                    if( i != kivkartyaindex2_2){
-                        if(cards2[kivkartyaindex2_2].tipus == cards2[i].tipus && cards2[i] != kitettlap2){
-                            lehetoseg2 = 3;
-                            cards2[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato2_2.push(cards2[i]);
-                        }
-                    }
-
+            if(cards2[4].tipus != akcio){
+                if(lehetoseg2 == 1 || (lehetoseg2 >= 2 && valaszthato2.indexOf(cards2[4]) === -1 && valaszthato2_2.indexOf(cards2[4]) === -1 && valaszthato2_3.indexOf(cards2[4]) === -1 && valaszthato2_4.indexOf(cards2[4]) === -1)){
+                    alapeset2_4();
                 }
-            }
-            if(lehetoseg2 == 3 && valaszthato2_2.includes(cards2[4])){
-                kitettlap2_3 = cards2[4];
-                kivkartyaindex2_3 = 4;
-                rakott2 = 3;
-                valaszthato2_3 = [];
-                valaszthato2_4 = [];
-                cards2[4].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 0; i < 5; i++){
-                    if(i != kivkartyaindex2_3){
-                        if(cards2[kivkartyaindex2_3].tipus == cards2[i].tipus && cards2[i] != kitettlap2 && cards2[i] != kitettlap2_2){
-                            lehetoseg2 = 4;
-                            cards2[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato2_3.push(cards2[i]);
+                if(lehetoseg2 == 2 && valaszthato2.includes(cards2[4])){
+                    kitettlap2_2 = cards2[4];
+                    kivkartyaindex2_2 = 4;
+                    rakott2 = 2;
+                    valaszthato2_2 = [];
+                    valaszthato2_3 = [];
+                    valaszthato2_4 = [];
+                    cards2[4].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if( i != kivkartyaindex2_2){
+                            if(cards2[kivkartyaindex2_2].tipus == cards2[i].tipus && cards2[i] != kitettlap2){
+                                lehetoseg2 = 3;
+                                cards2[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato2_2.push(cards2[i]);
+                            }
                         }
-                    }
 
+                    }
                 }
-            }
-            if(lehetoseg2 == 4 && valaszthato2_3.includes(cards2[4])){
-                kitettlap2_4 = cards2[4];
-                kivkartyaindex2_4 = 4;
-                rakott2 = 4;
-                valaszthato2_4 = [];
-                cards2[4].elolap.style.border = '4px solid #07cbd8';
-                for(let i = 0; i < 5; i++){
-                    if(i != kivkartyaindex2_4){
-                        if(cards2[kivkartyaindex2_4].tipus == cards2[i].tipus && cards2[i] != kitettlap1 && cards2[i] != kitettlap2_2 && cards2[i] != kitettlap2_3){
-                            lehetoseg2 = 5;
-                            cards2[i].elolap.style.border = '4px solid #a91a1a';
-                            valaszthato2_4.push(cards2[i]);
+                if(lehetoseg2 == 3 && valaszthato2_2.includes(cards2[4])){
+                    kitettlap2_3 = cards2[4];
+                    kivkartyaindex2_3 = 4;
+                    rakott2 = 3;
+                    valaszthato2_3 = [];
+                    valaszthato2_4 = [];
+                    cards2[4].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex2_3){
+                            if(cards2[kivkartyaindex2_3].tipus == cards2[i].tipus && cards2[i] != kitettlap2 && cards2[i] != kitettlap2_2){
+                                lehetoseg2 = 4;
+                                cards2[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato2_3.push(cards2[i]);
+                            }
                         }
-                    }
 
+                    }
                 }
-            }
-            if(lehetoseg2 == 5 && valaszthato2_4.includes(cards2[4])){
-                kitettlap2_5 = cards2[4];
-                kivkartyaindex2_5 = 4;
-                rakott2 = 5;
-                cards2[4].elolap.style.border = '4px solid #07cbd8';
+                if(lehetoseg2 == 4 && valaszthato2_3.includes(cards2[4])){
+                    kitettlap2_4 = cards2[4];
+                    kivkartyaindex2_4 = 4;
+                    rakott2 = 4;
+                    valaszthato2_4 = [];
+                    cards2[4].elolap.style.border = '4px solid #07cbd8';
+                    for(let i = 0; i < 5; i++){
+                        if(i != kivkartyaindex2_4){
+                            if(cards2[kivkartyaindex2_4].tipus == cards2[i].tipus && cards2[i] != kitettlap2 && cards2[i] != kitettlap2_2 && cards2[i] != kitettlap2_3){
+                                lehetoseg2 = 5;
+                                cards2[i].elolap.style.border = '4px solid #a91a1a';
+                                valaszthato2_4.push(cards2[i]);
+                            }
+                        }
+
+                    }
+                }
+                if(lehetoseg2 == 5 && valaszthato2_4.includes(cards2[4])){
+                    kitettlap2_5 = cards2[4];
+                    kivkartyaindex2_5 = 4;
+                    rakott2 = 5;
+                    cards2[4].elolap.style.border = '4px solid #07cbd8';
+                }
             }
         }
     });
@@ -1704,8 +1837,11 @@ function plusszPont() {
     }
 }
 
-//alapreakciok a kartyara kattintaskor
+//alapreakciok a kartyara kattintaskor, és az akciókártyák kezelése
+
+
 function alapeset1_0(){
+    duplakatt = false;
     lehetoseg1 = 1;
     kivkartyaindex1 = 0;
     rakott1 = 1;
@@ -1730,6 +1866,7 @@ function alapeset1_0(){
 }
 
 function alapeset1_1(){
+    duplakatt = false;
     lehetoseg1 = 1;
     kivkartyaindex1 = 1;
     rakott1 = 1;
@@ -1756,6 +1893,7 @@ function alapeset1_1(){
 }
 
 function alapeset1_2(){
+    duplakatt = false;
     lehetoseg1 = 1;
     kivkartyaindex1 = 2;
     rakott1 = 1;
@@ -1782,6 +1920,7 @@ function alapeset1_2(){
 }
 
 function alapeset1_3(){
+    duplakatt = false;
     lehetoseg1 = 1;
     kivkartyaindex1 = 3;
     rakott1 = 1;
@@ -1808,6 +1947,7 @@ function alapeset1_3(){
 }
 
 function alapeset1_4(){
+    duplakatt = false;
     lehetoseg1 = 1;
     kivkartyaindex1 = 4;
     rakott1 = 1;
@@ -1834,6 +1974,7 @@ function alapeset1_4(){
 }
 
 function alapeset2_0(){
+    duplakatt = false;
     lehetoseg2 = 1;
     kivkartyaindex2 = 0;
     rakott2 = 1;
@@ -1858,6 +1999,7 @@ function alapeset2_0(){
 }
 
 function alapeset2_1(){
+    duplakatt = false;
     lehetoseg2 = 1;
     kivkartyaindex2 = 1;
     rakott2 = 1;
@@ -1884,6 +2026,7 @@ function alapeset2_1(){
 }
 
 function alapeset2_2(){
+    duplakatt = false;
     lehetoseg2 = 1;
     kivkartyaindex2 = 2;
     rakott2 = 1;
@@ -1910,6 +2053,7 @@ function alapeset2_2(){
 }
 
 function alapeset2_3(){
+    duplakatt = false;
     lehetoseg2 = 1;
     kivkartyaindex2 = 3;
     rakott2 = 1;
@@ -1936,6 +2080,7 @@ function alapeset2_3(){
 }
 
 function alapeset2_4(){
+    duplakatt = false;
     lehetoseg2 = 1;
     kivkartyaindex2 = 4;
     rakott2 = 1;
@@ -1959,6 +2104,276 @@ function alapeset2_4(){
             }
         }
     }
+}
+
+function akciokartya1_0(){
+    kivkartyaindex1 = 0;
+    rakott1 = 0;
+    kitettlap1 = 0;
+    cards1[0].elolap.style.border = '4px solid #07cbd8';
+    cards1[1].elolap.style.border = 'none';
+    cards1[2].elolap.style.border = 'none';
+    cards1[3].elolap.style.border = 'none';
+    cards1[4].elolap.style.border = 'none';
+    if(cards1[kivkartyaindex1] == order66){
+        for(let i = 0; i < cards2.length; i++){
+            if(cards2[i].tipus == koztarsasag){
+                elemekelvetele2();
+                randomKartyak2(1,i);
+                for(let j = 0; j < cards2.length; j++){
+                    cards2[i].melyikoldal = false;
+                }
+                elemekhozzaadasa2();
+            }
+        }
+    }
+    jatekos1kartyak1.removeChild(cards1[kivkartyaindex1].elolap);
+    randomKartyak1(1,kivkartyaindex1);
+    cards1[kivkartyaindex1].kartyamegjelenes();
+    jatekos1kartyak1.appendChild(cards1[kivkartyaindex1].elolap);
+}
+
+function akciokartya1_1(){
+    kivkartyaindex1 = 1;
+    rakott1 = 0;
+    kitettlap1 = 0;
+    cards1[1].elolap.style.border = '4px solid #07cbd8';
+    cards1[0].elolap.style.border = 'none';
+    cards1[2].elolap.style.border = 'none';
+    cards1[3].elolap.style.border = 'none';
+    cards1[4].elolap.style.border = 'none';
+    if(cards1[kivkartyaindex1] == order66){
+        for(let i = 0; i < cards2.length; i++){
+            if(cards2[i].tipus == koztarsasag){
+                elemekelvetele2();
+                randomKartyak2(1,i);
+                for(let j = 0; j < cards2.length; j++){
+                    cards2[j].melyikoldal = false;
+                }
+                elemekhozzaadasa2();
+            }
+        }
+    }
+    jatekos1kartyak2.removeChild(cards1[kivkartyaindex1].elolap);
+    randomKartyak1(1,kivkartyaindex1);
+    cards1[kivkartyaindex1].kartyamegjelenes();
+    jatekos1kartyak2.appendChild(cards1[kivkartyaindex1].elolap);
+}
+
+function akciokartya1_2(){
+    kivkartyaindex1 = 2;
+    rakott1 = 0;
+    kitettlap1 = 0;
+    cards1[2].elolap.style.border = '4px solid #07cbd8';
+    cards1[0].elolap.style.border = 'none';
+    cards1[1].elolap.style.border = 'none';
+    cards1[3].elolap.style.border = 'none';
+    cards1[4].elolap.style.border = 'none';
+    if(cards1[kivkartyaindex1] == order66){
+        for(let i = 0; i < cards2.length; i++){
+            if(cards2[i].tipus == koztarsasag){
+                elemekelvetele2();
+                randomKartyak2(1,i);
+                for(let j = 0; j < cards2.length; j++){
+                    cards2[j].melyikoldal = false;
+                }
+                elemekhozzaadasa2();
+            }
+        }
+    }
+    jatekos1kartyak3.removeChild(cards1[kivkartyaindex1].elolap);
+    randomKartyak1(1,kivkartyaindex1);
+    cards1[kivkartyaindex1].kartyamegjelenes();
+    jatekos1kartyak3.appendChild(cards1[kivkartyaindex1].elolap);
+}
+
+function akciokartya1_3(){
+    kivkartyaindex1 = 3;
+    rakott1 = 0;
+    kitettlap1 = 0;
+    cards1[3].elolap.style.border = '4px solid #07cbd8';
+    cards1[0].elolap.style.border = 'none';
+    cards1[1].elolap.style.border = 'none';
+    cards1[2].elolap.style.border = 'none';
+    cards1[4].elolap.style.border = 'none';
+    if(cards1[kivkartyaindex1] == order66){
+        for(let i = 0; i < cards2.length; i++){
+            if(cards2[i].tipus == koztarsasag){
+                elemekelvetele2();
+                randomKartyak2(1,i);
+                for(let j = 0; j < cards2.length; j++){
+                    cards2[j].melyikoldal = false;
+                }
+                elemekhozzaadasa2();
+            }
+        }
+    }
+    jatekos1kartyak4.removeChild(cards1[kivkartyaindex1].elolap);
+    randomKartyak1(1,kivkartyaindex1);
+    cards1[kivkartyaindex1].kartyamegjelenes();
+    jatekos1kartyak4.appendChild(cards1[kivkartyaindex1].elolap);
+}
+
+function akciokartya1_4(){
+    kivkartyaindex1 = 4;
+    rakott1 = 0;
+    kitettlap1 = 0;
+    cards1[4].elolap.style.border = '4px solid #07cbd8';
+    cards1[0].elolap.style.border = 'none';
+    cards1[1].elolap.style.border = 'none';
+    cards1[2].elolap.style.border = 'none';
+    cards1[3].elolap.style.border = 'none';
+    if(cards1[kivkartyaindex1] == order66){
+        for(let i = 0; i < cards2.length; i++){
+            if(cards2[i].tipus == koztarsasag){
+                elemekelvetele2();
+                randomKartyak2(1,i);
+                for(let j = 0; j < cards2.length; j++){
+                    cards2[j].melyikoldal = false;
+                }
+                elemekhozzaadasa2();
+            }
+        }
+    }
+    jatekos1kartyak5.removeChild(cards1[kivkartyaindex1].elolap);
+    randomKartyak1(1,kivkartyaindex1);
+    cards1[kivkartyaindex1].kartyamegjelenes();
+    jatekos1kartyak5.appendChild(cards1[kivkartyaindex1].elolap);
+}
+
+function akciokartya2_0(){
+    kivkartyaindex2 = 0;
+    rakott2 = 0;
+    kitettlap2 = 0;
+    cards2[0].elolap.style.border = '4px solid #07cbd8';
+    cards2[1].elolap.style.border = 'none';
+    cards2[2].elolap.style.border = 'none';
+    cards2[3].elolap.style.border = 'none';
+    cards2[4].elolap.style.border = 'none';
+    if(cards2[kivkartyaindex2] == order66){
+        for(let i = 0; i < cards1.length; i++){
+            if(cards1[i].tipus == koztarsasag){
+                elemekelvetele1();
+                randomKartyak1(1,i);
+                for(let j = 0; j < cards1.length; j++){
+                    cards1[j].melyikoldal = false;
+                }
+                elemekhozzaadasa1();
+            }
+        }
+    }
+    jatekos2kartyak1.removeChild(cards2[kivkartyaindex2].elolap);
+    randomKartyak2(1,kivkartyaindex2);
+    cards2[kivkartyaindex2].kartyamegjelenes();
+    jatekos2kartyak1.appendChild(cards2[kivkartyaindex2].elolap);
+}
+
+function akciokartya2_1(){
+    kivkartyaindex2 = 1;
+    rakott2 = 0;
+    kitettlap2 = 0;
+    cards2[1].elolap.style.border = '4px solid #07cbd8';
+    cards2[0].elolap.style.border = 'none';
+    cards2[2].elolap.style.border = 'none';
+    cards2[3].elolap.style.border = 'none';
+    cards2[4].elolap.style.border = 'none';
+    if(cards2[kivkartyaindex2] == order66){
+        for(let i = 0; i < cards1.length; i++){
+            if(cards1[i].tipus == koztarsasag){
+                elemekelvetele1();
+                randomKartyak1(1,i);
+                for(let j = 0; j < cards1.length; j++){
+                    cards1[j].melyikoldal = false;
+                }
+                elemekhozzaadasa1();
+            }
+        }
+    }
+    jatekos2kartyak2.removeChild(cards2[kivkartyaindex2].elolap);
+    randomKartyak2(1,kivkartyaindex2);
+    cards2[kivkartyaindex2].kartyamegjelenes();
+    jatekos2kartyak2.appendChild(cards2[kivkartyaindex2].elolap);
+}
+
+function akciokartya2_2(){
+    kivkartyaindex2 = 2;
+    rakott2 = 0;
+    kitettlap2 = 0;
+    cards2[2].elolap.style.border = '4px solid #07cbd8';
+    cards2[0].elolap.style.border = 'none';
+    cards2[1].elolap.style.border = 'none';
+    cards2[3].elolap.style.border = 'none';
+    cards2[4].elolap.style.border = 'none';
+    if(cards2[kivkartyaindex2] == order66){
+        for(let i = 0; i < cards1.length; i++){
+            if(cards1[i].tipus == koztarsasag){
+                elemekelvetele1();
+                randomKartyak1(1,i);
+                for(let j = 0; j < cards1.length; j++){
+                    cards1[j].melyikoldal = false;
+                }
+                elemekhozzaadasa1();
+            }
+        }
+    }
+    jatekos2kartyak3.removeChild(cards2[kivkartyaindex2].elolap);
+    randomKartyak2(1,kivkartyaindex2);
+    cards2[kivkartyaindex2].kartyamegjelenes();
+    jatekos2kartyak3.appendChild(cards2[kivkartyaindex2].elolap);
+}
+
+function akciokartya2_3(){
+    kivkartyaindex2 = 3;
+    rakott2 = 0;
+    kitettlap2 = 0;
+    cards2[3].elolap.style.border = '4px solid #07cbd8';
+    cards2[0].elolap.style.border = 'none';
+    cards2[1].elolap.style.border = 'none';
+    cards2[2].elolap.style.border = 'none';
+    cards2[4].elolap.style.border = 'none';
+    if(cards2[kivkartyaindex2] == order66){
+        for(let i = 0; i < cards1.length; i++){
+            if(cards1[i].tipus == koztarsasag){
+                elemekelvetele1();
+                randomKartyak1(1,i);
+                for(let j = 0; j < cards1.length; j++){
+                    cards1[j].melyikoldal = false;
+                }
+                elemekhozzaadasa1();
+            }
+        }
+    }
+    jatekos2kartyak4.removeChild(cards2[kivkartyaindex2].elolap);
+    randomKartyak2(1,kivkartyaindex2);
+    cards2[kivkartyaindex2].kartyamegjelenes();
+    jatekos2kartyak4.appendChild(cards2[kivkartyaindex2].elolap);
+}
+
+function akciokartya2_4(){
+    kivkartyaindex2 = 4;
+    rakott2 = 0;
+    kitettlap2 = 0;
+    cards2[4].elolap.style.border = '4px solid #07cbd8';
+    cards2[0].elolap.style.border = 'none';
+    cards2[1].elolap.style.border = 'none';
+    cards2[2].elolap.style.border = 'none';
+    cards2[3].elolap.style.border = 'none';
+    if(cards2[kivkartyaindex2] == order66){
+        for(let i = 0; i < cards1.length; i++){
+            if(cards1[i].tipus == koztarsasag){
+                elemekelvetele1();
+                randomKartyak1(1,i);
+                for(let j = 0; j < cards1.length; j++){
+                    cards1[j].melyikoldal = false;
+                }
+                elemekhozzaadasa1();
+            }
+        }
+    }
+    jatekos2kartyak5.removeChild(cards2[kivkartyaindex2].elolap);
+    randomKartyak2(1,kivkartyaindex2);
+    cards2[kivkartyaindex2].kartyamegjelenes();
+    jatekos2kartyak5.appendChild(cards2[kivkartyaindex2].elolap);
 }
 
 //gombok
@@ -1991,6 +2406,7 @@ back.addEventListener("click", () => {
         kitettlap1_4 = 0;
         kitettlap1_5 = 0;
         rakott1 = 0;
+        kattintas = 0;
     }
     if(fordulo % 5 == 3){
         cards2[0].elolap.style.border = 'none';
@@ -2004,5 +2420,6 @@ back.addEventListener("click", () => {
         kitettlap2_4 = 0;
         kitettlap2_5 = 0;
         rakott2 = 0;
+        kattintas = 0;
     }
 });
