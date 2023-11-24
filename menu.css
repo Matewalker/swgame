@@ -1,0 +1,29 @@
+html{
+    background: fixed;
+    background-image: url("hatter.jpg");
+    background-position: center;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 6px;
+    font-size: 30px;
+    background-color: #000ba8;
+    border-radius: 10px;
+    color: #07cbd8 ;
+    padding: 8px;
+}
+
+button:hover{
+    background-color: #00052e;
+    color: #85d2d8;
+}
+
+a{
+    color: #07cbd8 ;
+    text-decoration: none;
+}
+a:hover{
+    color: #85d2d8;
+}

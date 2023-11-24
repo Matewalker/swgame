@@ -1,0 +1,16 @@
+html{
+    background: fixed;
+    background-image: url("hatter.jpg");
+    background-position: center;
+}
+
+h1{
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+li{
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
