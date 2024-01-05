@@ -1,9 +1,9 @@
 <?php
 
-$host = "localhost";
-$dbname = "starwarsgame";
-$username = "root";
-$password = "";
+$host = "mysql.caesar.elte.hu";
+$dbname = "melkemate";
+$username = "melkemate";
+$password = "t0fzHo4VHE0JgjBq";
 
 $mysqli = new mysqli($host, $username, $password, $dbname);
 

@@ -15,7 +15,7 @@
         return $pdo;
     }
     
-    $kapcsolat = kapcsolodas('mysql:host=localhost;dbname=starwarsgame;', 'root', '');
+    $kapcsolat = kapcsolodas('mysql:host=mysql.caesar.elte.hu;dbname=melkemate;', 'melkemate', 't0fzHo4VHE0JgjBq');
 
     if($gyoztes == 1){
         $updateQuery = "UPDATE users SET `pontok` = `pontok` + 1 WHERE ID = ?";

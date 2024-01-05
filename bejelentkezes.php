@@ -7,7 +7,7 @@ function kapcsolodas($kapcsolati_szoveg, $felhasznalonev = '', $jelszo = '') {
     return $pdo;
 }
 
-$kapcsolat = kapcsolodas('mysql:host=localhost;dbname=starwarsgame;', 'root', '');
+$kapcsolat = kapcsolodas('mysql:host=mysql.caesar.elte.hu;dbname=melkemate;', 'melkemate', 't0fzHo4VHE0JgjBq');
 
 if(empty($_POST["fnev"]) || empty($_POST["jelszo"])) {
     die("A felhasználónevet vagy a jelszót üresen hagytad!");
