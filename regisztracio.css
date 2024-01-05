@@ -1,0 +1,54 @@
+html{
+    background: fixed;
+    background-image: url("hatter.jpg");
+    background-position: center;
+}
+
+body{
+    max-width: 50%;
+    margin: auto;
+}
+
+h1,h2{
+    text-align: center;
+    color: #85d2d8;
+    font-size: 170%;
+}
+
+a{
+    text-decoration: none;
+    color: #85d2d8;
+    background-color: #000ba8;
+    border-radius: 8px;
+    border: #07cbd8 solid 2xp;
+    padding: 3px;
+}
+
+a:hover{
+    background-color: #00052e;
+    color: #85d2d8;
+}
+
+label{
+    color: #85d2d8;
+    font-size: 100%;
+}
+
+input{
+    background-color: #07cbd8 ;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+#elfogadgomb{
+    color: #85d2d8;
+    background-color: #000ba8;
+    border-radius: 8px;
+    border: #07cbd8 solid 2xp;
+    padding: 3px;
+}
+
+#elfogadgomb:hover{
+    background-color: #00052e;
+    color: #85d2d8;
+}

@@ -864,14 +864,14 @@ function megjelenesek() {
 function pontSzamlalo() {
     const jatekos1pontok = document.getElementById('pontok1');
     jatekos1pontok.style.display = "block";
-    const jatekos1ponszamlalomegjelenes = document.getElementById('jatekos1pontok');
-    jatekos1ponszamlalomegjelenes.textContent = jatekos1Pont;
-    jatekos1ponszamlalomegjelenes.style.display = "block";
+    const jatekos1pontszamlalomegjelenes = document.getElementById('jatekos1pontok');
+    jatekos1pontszamlalomegjelenes.textContent = jatekos1Pont;
+    jatekos1pontszamlalomegjelenes.style.display = "block";
     const jatekos2pontok = document.getElementById('pontok2');
     jatekos2pontok.style.display = "block";
-    const jatekos2ponszamlalomegjelenes = document.getElementById('jatekos2pontok');
-    jatekos2ponszamlalomegjelenes.textContent = jatekos2Pont;
-    jatekos2ponszamlalomegjelenes.style.display = "block";
+    const jatekos2pontszamlalomegjelenes = document.getElementById('jatekos2pontok');
+    jatekos2pontszamlalomegjelenes.textContent = jatekos2Pont;
+    jatekos2pontszamlalomegjelenes.style.display = "block";
 }
 
 function kiirasok(){

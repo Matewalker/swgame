@@ -10,7 +10,6 @@ body {
 }
 
 div{
-  /* position: absolute; */
   width: 180px;
   height: 240px;
   margin: 6px;
@@ -36,7 +35,6 @@ button{
   display: flex;
   list-style-type: none;
   margin-bottom: 40%;
-  /* position: absolute; */
   float: left;
 }
 
@@ -60,7 +58,6 @@ button{
   display: flex;
   list-style-type: none;
   float: left;
-  /* position: absolute; */
 }
 
 #lerakott2{
@@ -146,6 +143,10 @@ button{
 #jatekujra:hover{
   background-color: #00052e;
   color: #85d2d8;
+}
+
+a{
+  text-decoration: none;
 }
 
 #back{
