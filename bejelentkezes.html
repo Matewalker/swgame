@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bejelentkezes.css">
+    <title>Bejelentkezés</title>
+    <link rel="icon" href="tatooinehatter.jpg" type="image/x-icon">
+</head>
+<body>
+    <h1>Bejelentkezés</h1>
+    <form action="bejelentkezes.php" method="post">
+        <label for="fnev"><strong>Felhasználónév</strong></label><br>
+        <input type="text" id="fnev" name="fnev" required><br>
+
+        <label for="jelszo"><strong>Jelszó</strong></label><br>
+        <input type="password" id="jelszo" name="jelszo" required><br>
+
+        <input type="submit" id="elfogadas" value="elfogad">
+    </form>
+</body>
+</html>
