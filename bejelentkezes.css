@@ -1,0 +1,40 @@
+html{
+    background: fixed;
+    background-image: url("hatter.jpg");
+    background-position: center;
+}
+
+body{
+    max-width: 50%;
+    margin: auto;
+}
+
+h1{
+    color: #85d2d8;
+    font-size: 250%;
+}
+
+label{
+    color: #85d2d8;
+    font-size: 150%;
+}
+
+input{
+    background-color: #07cbd8 ;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+#elfogadas{
+    font-size: large;
+    color: #85d2d8;
+    background-color: #000ba8;
+    border-radius: 8px;
+    border: #07cbd8 solid 2xp;
+    padding: 3px;
+}
+
+#elfogadas:hover{
+    background-color: #00052e;
+    color: #85d2d8;
+}
